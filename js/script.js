@@ -195,6 +195,7 @@ function validar_aficiones() {
     }
 }
 
+var aficiones = [];
 
 function agregar_aficion() {
 
@@ -213,5 +214,7 @@ function agregar_aficion() {
         aficion_lista.textContent = aficion;
         aficion_lista.classList.add("list-group-item");
         document.getElementById("lista-aficiones").appendChild(aficion_lista);
+        aficiones.push(aficion);
+        console.log(aficiones);
     }
 }
