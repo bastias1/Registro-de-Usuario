@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(199, 199, 199) !important;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    background-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.custom-banner {
+    background-color: #003f88;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+
+.custom-form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.custom-completado {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
